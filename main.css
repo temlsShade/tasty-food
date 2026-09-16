@@ -1,0 +1,420 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  min-height: 100%;
+animation: appear 1.s ease-in-out;
+
+}
+header{
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: auto;
+  gap: 300px;
+  width: 100%;
+  height: 70px;
+  padding-top: 25px;
+  padding-left: 200px;
+  text-align: center;
+  z-index: 1000;
+  position: fixed;
+  background-color: white;
+}
+.nav-0{
+  color: rgb(4, 156, 4);;
+  padding: 20px;
+  text-decoration: none;
+}
+.nav-1{
+color: gray;
+padding: 20px;
+text-decoration: none;
+
+}
+.nav-1:hover{
+  color: rgb(4, 156, 4);;
+}
+.tasty:hover{
+color: rgb(4, 156, 4);;
+}
+.tasty{
+  color: gray;
+}
+.page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:auto;
+  justify-content: center;
+align-content: center;
+padding-top: 100px;
+}
+.welcome{
+  padding-top: 130px;
+  line-height: 60px;
+font-size: 35px;
+font-weight: 600;
+color: rgb(42, 41, 41);
+}
+.food{
+  color: rgb(4, 156, 4);;
+font-size: 55px;
+font-weight: 680;
+}
+.br{
+  padding-top: 20px;
+  font-weight: 540;
+  padding-bottom: 20px;
+}
+.menu{
+  padding-top:10px;
+  padding-bottom: 10px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+border-radius: 6px;
+border: none;
+background-color: rgb(4, 156, 4);
+color: white;
+transition: opacity 0.15s;
+margin-left: 10px;
+}
+.menu:hover{
+  opacity: 0.7;
+}
+.container{
+  display: flex;
+flex-direction: row;
+justify-content:center;
+  align-items: center;
+  padding-top: 150px;
+}
+.about{
+  height: 470px;
+  width: 470px;
+  border-radius: 10px;
+}
+.us{
+  padding-left: 190px;
+  color:rgb(4, 156, 4);
+
+}
+.about-us{
+  color: rgb(42, 41, 41);
+padding-top: 20px;
+line-height: 50px;
+font-size: 40px;
+font-weight: 500;
+}
+.description{
+  padding-top: 20px;
+  color: gray;
+  line-height: 25px;
+}
+.explore{
+  padding-top:10px;
+  padding-bottom: 10px;
+  
+  padding-left: 16px;
+  padding-right: 16px;
+border-radius: 6px;
+border: none;
+background-color: rgb(4, 156, 4);
+color: white;
+transition: opacity 0.15s;
+margin-top: 20px;
+}
+.explore:hover{
+  background-color: rgb(31, 107, 31);
+}
+.amazing{
+  padding-top: 100px;
+text-align: center;
+color: rgb(4, 156, 4);
+}
+.our{
+  color: rgb(42, 41, 41);
+  padding-top: 19px;
+  font-weight: 500;
+  font-size: 38px;
+}
+.foodie{
+  display: flex;
+  flex-direction: row;
+gap: 30px;
+justify-content: center;
+padding-top: 30px;
+}
+.foodie1{
+  color: rgb(42, 41, 41);
+  font-size: 24px;
+  font-weight: 500;
+}
+.foodie-1{
+  color: gray;
+  font-size: 15px;
+
+  padding-top: 16px;
+  line-height: 25px;
+}
+.chef{
+  width: 70px;
+}
+.chef-1{
+  width: 70px;
+  padding-bottom: 20px;
+
+}
+.chef-2{
+  width: 70px;
+
+}
+.excel{
+ padding-top: 1px; 
+}
+.special-1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+
+}
+.special{
+  text-align: center;
+  color: rgb(4, 156, 4);
+}
+.week{
+  text-align: center;
+  color: rgb(42, 41, 41);
+  padding-top: 19px;
+  font-weight: 500;
+  font-size: 38px;
+}
+.plate{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: center;
+  padding-top: 50px;
+}
+.plate-1{
+  background-color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border-radius: 14px;
+  
+  
+}
+.plate-1:hover{
+box-shadow:  5px 7px 4px rgba(86, 85, 85, 0.15);
+}
+.figcaption{
+padding-top: 15px;
+
+}
+.cart {
+    position:relative;
+    right: 0;
+    bottom: 0;
+margin-left: 200px;
+margin-bottom: 0px;
+    width: 32px;
+    height: 36px;
+
+    border: none;
+    background-color: rgb(4, 156, 4);
+
+    color: white;
+    font-size: 18px;
+
+    border-radius: 12px 0 0 0;
+
+    cursor: pointer;
+}
+.cart:hover{
+  background-color: rgb(31, 107, 31);
+}
+.mobile{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 180px;
+}
+.mobile-1{
+  width: 30%;
+  height: 70%;
+  padding-right: 100px;
+}
+.app{
+  text-align: center;
+  color: rgb(4, 156, 4);
+}
+.ap{
+  color: rgb(42, 41, 41);
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 15px;
+}
+.apps{
+color: gray;
+width: 420px;
+padding-top: 30px;
+line-height: 30px;
+}
+.google{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+gap: 20px;
+cursor: pointer;
+}
+.google-1{
+  width: 110px;
+
+}
+.google-2{
+  width: 110px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.let{
+  color: rgb(4, 156, 4); 
+  padding-top: 100px;
+}
+.let-s{
+  color: rgb(42, 41, 41);
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  
+}
+.lets{
+width:590px;
+line-height: 29px;
+color:gray;
+padding-top: 30px;
+}
+.button{
+  padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 12px;
+padding-top: 12px;
+border-radius: 9px;
+background-color: rgb(42, 156, 4);
+margin-top: 80px;
+border: none;
+color: white;
+margin-left: 100px;
+transition: background-color 0.10s;
+cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(31, 107, 31);
+}
+.connect{
+ display: flex;
+ flex-direction: row; 
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding-top: 100px;
+ gap: 50px;
+}
+.connect1{
+  color: rgb(42, 156, 4);
+  font-size: 15px;
+
+}
+.connect1-1{
+  color: gray;
+  padding-top: 20px;
+  font-size: small;
+}
+.connect-2{
+display: inline-flex;
+cursor: pointer;
+width: 30px;
+height: 50px;
+position: relative;
+justify-content: center;
+padding-top: 20px;
+
+}
+.spot{
+  display: flex;
+  flex-direction: column;
+  color: rgb(42, 41, 41);
+  line-height: 23px;
+  cursor: pointer;
+}
+.spot1{
+  color: gray;
+
+}
+.spot1:hover{
+  color:rgb(4, 156, 4);
+}
+.spot-1{
+  display: flex;
+  flex-direction: column;
+}
+.spot-1{
+  color: gray;
+  line-height: 23px;
+}
+.spott{
+  color: rgb(42, 41, 41);
+}
+.end{
+  padding-top: 100px;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+}
+
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+  section {
+    animation: drop 1s ease-out;
+}
+
+@keyframes drop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
